@@ -1,0 +1,26 @@
+//OOPS
+    // Encapsulation:
+        putting data and functions together in a Unit
+
+    // Abstraction:-
+        showing only necessary details to the consumer of the code.
+
+    //Inheritance:-
+        using available  data and functionalities to  define new data and functionalities
+
+    //Polymorphism:-
+        multiple forms of functionalities available to be used as a unit.
+
+//Array.prototype.reduce
+
+// class:
+static fields 
+private fields
+
+// object.keys()
+// object.entries()
+// object.values()
+// object.defineProperty()
+
+
+

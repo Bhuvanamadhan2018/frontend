@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Grid</title>
+    <style>
+    .container{
+        display:grid;
+
+        grid-template-areas:
+        "img1 img2"
+        "img3 img4"
+        "img5 img4";
+        width: 800px;
+        height:800px,;
+        background-color: rgb(127, 86, 166);
+    }
+    img{
+        width:100%;
+        height:100%;
+        border:8px solid  rgb(10, 23, 6);
+    }
+    .img1{
+        grid-area:img1;
+    }
+    .img2{
+        grid-area:img2;
+    }
+    .img3{
+        grid-area:img3;
+    }
+    .img4{
+        grid-area:img4;
+    }
+    .img5{
+        grid-area:img5;
+        
+    }
+</style>
+ 
+</head>
+
+<body>
+    <div class="container">
+        <img src="./99b27061-da4b-4b2d-8f1d-2955f7cc2365.jpeg"; width="100px";height="100px" alt="birthday" class="img1">
+        <img src="./31539b4d-628e-4d12-be62-906bc539aded.jpeg"; width="100px";height="100px" alt="birthday" class="img2">
+        <img src="./366dc138-e2f3-4c8a-8731-0ce3e6768da5.jpeg"; width="100px";height="100px" alt="birthday" class="img3">
+        <img src="./854bd1f0-d4db-4fde-b9fc-cfa4fcd592cf.jpeg"; width="100px";height="100px" alt="birthday" class="img4" >
+        <img src="./c71303c3-78d0-47a7-b26f-4f3c9e5b2391.jpeg"; width="100px";height="100px" alt="birthday" class="img5">
+        
+
+    </div>
+    
+</body>
+</html>
